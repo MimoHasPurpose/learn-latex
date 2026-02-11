@@ -1,0 +1,25 @@
+% including graphics and positioning.
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+\begin{document}
+
+% \begin{center}
+%     \includegraphics[height=10cm]{data/cube.jpg}
+    
+%     \caption{is an imported image}
+% \end{center}
+
+
+\lipsum[1-5]
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\linewidth]{data/cube.jpg}
+    \caption{hyperspectral cube}
+    \label{fig:}
+\end{figure}
+\lipsum[1-5]
+\end{document}
